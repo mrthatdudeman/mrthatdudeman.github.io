@@ -111,28 +111,68 @@ public class FibonacciNums {
 
 ### Notable Algorithms:
 // This is the body of the Fibonacci Sequence, the description is in the comments.
-
-With comments:
 ```markdown 
-  // While loop that will run as long as int i is less than or equal to the user input (numOfTimes)
-        while(i <= numOfTimes)
-        {
-            // Prints the first number of the sequence and a space
-            System.out.print(first + " ");
-            
-            // Declares and initialize int variable sumOfTwoNums to the sum of the first and second numbers
-            int sumOfTwoNums = first + second;
-          
-            // Stores the value in the second varaible into the first variable
-            first = second;
-            
-            // Stores the value in sumOfTwoNums varable into the second variable
-            second = sumOfTwoNums;
-            
-            // increments i by 1.
-            i++;
-        }
+	// While loop that will run as long as int i is less than or equal to the user
+	// input (numOfTimes)
+	
+	while (i <= numOfTimes) {
+		// Prints the first number of the sequence and a space
+		System.out.print(first + " ");
+
+		// Declares and initialize int variable sumOfTwoNums to the sum of the first and
+		// second numbers
+		sumOfTwoNums = first + second;
+
+		// Stores the value in the second varaible into the first variable
+		first = second;
+
+		// Stores the value in sumOfTwoNums varable into the second variable
+		second = sumOfTwoNums;
+
+		// increments i by 1.
+		i++;
+	}
 ```
 
+This algorithm only allows for positive whole numbers to be used in the Fibonacci sequence program by using a if-else statement nested in a do while loop.
+```markdown
+
+// Do while loop with nested if else statement will get user input of positive
+	// whole number
+	do {
+		// If the next input into scanner is in fact an int it will be stored into int
+		// variable numOfTimes eles user will get a message to try again
+		if (scanner.hasNextInt()) {
+			numOfTimes = scanner.nextInt();
+		} else {
+			System.out.println("Positive whole numbers only ... Try again: ");
+			scanner.nextLine();
+		}
+	} while (numOfTimes <= 0);
+
+	// Ends scanner
+	scanner.close();
+```
+This algorithm determines if the number is a prime number or note by using a boolean.
+```markdown
+// Declares and initializes int variable j to equal 2
+	int j = 2;
+
+	// creates boolean isPrime to start as true
+	boolean isPrime = true;
+
+	// while loop runs as long as int j is less than or equal to the numOfTimes
+	// divided by 2
+	while (j <= numOfTimes / 2) {
+		// if statement checks if the mod of numOfTimes and j is 0
+		if (numOfTimes % j == 0) {
+			isPrime = false;
+			break;
+		}
+		// increments j after if statement is broke to stop while loop
+		j++;
+	}
+
+```
 # Database:
 Still in progress..
