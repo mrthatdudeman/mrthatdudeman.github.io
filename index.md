@@ -175,4 +175,21 @@ This algorithm determines if the number is a prime number or note by using a boo
 
 ```
 # Database:
-Still in progress..
+### Tweets about airline Database
+
+After creating the Database "TwitterData" in a MySQL terminal I created a table for the tweets called "Tweets".
+
+That table includes the following columns:
+
+airline_sentiment - gives feedback on the airline (neutral, positive, negative)
+negativereason - if negatvie airline_sentiment, the reason will be given
+airline	- the name of the airline that was flown
+name - the name of the user that tweeted
+retweet_count - the amount of retweets the tweet received
+text - the actual tweet itself, (including mentions @ )
+tweet_created - data and time of when the tweet was created
+tweet_location - the gernal location the tweet was created and posted
+user_timezone - the timezone where ther user is located
+
+
+
