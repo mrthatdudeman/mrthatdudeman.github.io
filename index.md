@@ -211,3 +211,10 @@ I then wanted to test the database in a little more detail so I searched only "p
 
 
 
+# Professional Self-Assessment:
+
+
+I believe some parts of this project I handled well and others I could improve on. I have always been a multitasker so when we had the option to encompass all three categories of the project into a single project I knew that is what I was going to do. I struggled for a day or two trying to think of that project. Finally, I decided it would be best to split it up  into two parts. I combined the Software Engineering and design portion of the project with the Algorithms and Data Structure portion and let the Database portion be its own project. 
+I believe my program accurately demonstrates the skills of Software engineering, design, algorithms and data structures. I did this by using different kinds of loops and variable types. The algorithm took the greatest amount of time for me to accomplish. I began by creating the Fibonacci Sequence code, once that was done I was able to put the prime number code in it. I did find myself changing multiple lines out for a more diverse type of code. 
+The one part of the  Database portion that was challenging for me was creating the columns for the table in the terminal. I tried multiple times but could not get the command to work. I settled and created the columns in MySQL Workbench. The import of data and testing of the database was done through the terminal. I believe that this project could be improved in the future, The Fibonacci Sequence program could include different types of sequences and number patterns, the Database could potentially have a live stream of tweets so airlines can constantly monitor their customers flight experiences. 
+
