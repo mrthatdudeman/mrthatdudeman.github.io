@@ -177,10 +177,17 @@ This algorithm determines if the number is a prime number or note by using a boo
 # Database:
 ### Tweets about airline Database
 
-After creating the Database "TwitterData" in a MySQL terminal I created a table for the tweets called "Tweets".
+In the first image you can see that I created the Database "TwitterData" in a MySQL terminal, I then created a table for the tweets called "Tweets":
 
-That table includes the following columns:
+<img width="392" alt="Picture1" src="https://user-images.githubusercontent.com/26801971/79695846-1253eb80-8247-11ea-926f-3dff33a47b31.png">
 
+I found some Twitter data online and downloaded the excel file. I notice that the file was extermly bulky so I decided to trim down some of the columns that were not really needed and reduced the count to 1000 entries.
+
+Creating the columns for this database in the terminal proved challenging so I used the MySQL Workbench to create them:
+
+<img width="223" alt="Picture4" src="https://user-images.githubusercontent.com/26801971/79696043-2d732b00-8248-11ea-99c3-5ecba810c8e4.png">
+
+This is a discription of the table's columns: 
 airline_sentiment - gives feedback on the airline (neutral, positive, negative)
 negativereason - if negatvie airline_sentiment, the reason will be given
 airline	- the name of the airline that was flown
@@ -190,6 +197,15 @@ text - the actual tweet itself, (including mentions @ )
 tweet_created - data and time of when the tweet was created
 tweet_location - the gernal location the tweet was created and posted
 user_timezone - the timezone where ther user is located
+
+Once all of the data was imported successfully, I began testing filtering the database with commands. This one shows all of the cloumn "name": 
+
+<img width="162" alt="Picture2" src="https://user-images.githubusercontent.com/26801971/79695851-197af980-8247-11ea-9672-fb1a613d4b9d.png">
+
+I then wanted to test the database in a little more detail so I searched only "positive" entries in the "airline_sentiment" column. This means only the positive entries will be pulled, but If i only filed by that the word "positive" will be displayed for every positive entry that is in the database. So I used it as a searching term. I displayed all of the "text" (which are the tweets) WHERE the "airline_sentiment" is "positive":
+
+<img width="468" alt="Picture3" src="https://user-images.githubusercontent.com/26801971/79695856-20a20780-8247-11ea-9461-5b3037ce4d81.png">
+
 
 
 
