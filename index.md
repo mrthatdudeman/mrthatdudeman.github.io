@@ -1,5 +1,5 @@
 
-# Software Engineering and desgin:
+# Software Engineering and design:
 
 ### Fibonacci Sequence Program with Prime number tester
 This is the entiretly of the Fibonaci Seqeunce Program. The program allows a user to imput a number and the program will output the Fibonacci Sequence. The program will also tell the user wither the inputed number is or is not a Prime Number. There are some checks in the program that only allow for the whole positive number to be used, if it is not used then the user will be asked to try again. 
